@@ -1,0 +1,171 @@
+/* Break 1 */
+    @media screen and (max-width: 1390px) {
+        .Navbar-Container {
+            width: 88%;
+        }
+        .HeroSection-Wrapper{
+            width: 88%;
+        }
+    }
+
+/* Break 2 */
+    @media screen and (max-width: 1280px) {
+        /* Navbar */
+            .Navbar-Container {
+                width: 88%;
+            }
+            .Menu {
+                display: none;
+            }
+            .Menu-Burger {
+                display: block;
+            }
+        /* ....................... */
+        
+        /* HeroSection */
+            .HeroSection-Wrapper{
+                height: 100dvh;
+                max-height: 600px;
+            }
+            .Hero-Tof1{
+                width: 483px;
+            }
+            .Hero-Tof2{
+                width: 288px;
+            }
+        /* ....................... */
+    }
+/* ................................ */
+
+/* Break 3 */
+    @media screen and (max-width: 1186px) {
+         /* HeroSection */
+            .HeroGrp-Left{
+                scale: 0.8;
+                margin-left: -52px;
+            }
+            .Hero-Tof1{
+                width: 430px;
+            }
+            .Hero-Tof2{
+                width: 258px;
+            }
+        /* ....................... */
+    }
+/* ................................ */
+
+/* Break 4 */
+    @media screen and (max-width: 998px) {
+        /* HeroSection */
+            .HeroSection-Wrapper{
+                max-height: 486px;   
+            }
+            .HeroGrp-Left{
+                padding-bottom: 90px;
+                margin-left: -35px;
+            }
+            
+            .Hero-Tof1{
+                width: 354px;
+            }
+            .Hero-Tof2{
+                width: 210px;
+                right: 193px;
+            }
+    /* ....................... */
+    }
+/* ................................ */
+
+/* Break 5 */
+    @media screen and (max-width: 780px) {
+        /* HeroSection */
+            .HeroSection-Wrapper{
+                max-height: 86dvh;   
+            }
+            .HeroGrp-Left{
+                margin-left: 2px;
+                /* padding-bottom: 400px; */
+                scale: 1;
+            }
+            .HeroGrp-CTA{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .Hero-Tof1{
+                width: 464px;
+                right: -150px;
+            }
+            .Hero-Tof2{
+                width: 264px;
+                right: 70px;
+            }
+        /* ....................... */
+    }
+/* ................................ */
+
+/* Break 6 */
+    @media screen and (max-width: 600px) {
+        /* HeroSection */
+            .HeroGrp-Left{
+                /* padding-bottom: 278px; */
+                margin-left: -26px;
+                scale: 0.8;
+            }
+
+            .Hero-Tof1{
+                width: 338px;
+                right: -89px;
+            }
+            .Hero-Tof2{
+                width: 202px;
+                right: 88px;
+            }
+        /* ....................... */
+    }
+/* ................................ */
+
+/* Break 7 */
+    @media screen and (max-width: 480px) {
+        /* HeroSection */
+            .HeroSection-Wrapper{
+                max-height: 84dvh;   
+            }
+            .HeroGrp-Left{
+                padding-bottom: 250px;
+                margin-left: -21px;
+                scale: 0.7;
+            }
+
+            .Hero-Tof1{
+                width: 283px;
+                right: -80px;
+            }
+            .Hero-Tof2{
+                width: 166px;
+                right: 66px;
+            }
+        /* ....................... */
+    }
+/* ................................ */
+
+/* Break 8 */
+    @media screen and (max-width: 375px) {
+        /* HeroSection */
+            .HeroGrp-Left{
+                padding-bottom: 200px;
+                margin-left: -21px;
+                scale: 0.7;
+            }
+
+            .Hero-Tof1{
+                width: 243px;
+            }
+            .Hero-Tof2{
+                width: 146px;
+                right: 46px;
+            }
+        /* ....................... */
+    }
+/* ................................ */
