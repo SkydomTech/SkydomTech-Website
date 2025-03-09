@@ -50,6 +50,7 @@ a{
         width: 100%;
         height: 80px;
         background-color: var(--Light-01);
+        overflow: clip;
     }
     .Navbar-Container{
         display: flex;
@@ -143,12 +144,15 @@ a{
 
             width: 377px;
 
-            /* Pour le texte */
+            /* pour le texte */
             font-family: 'Body', sans-serif;
             font-size: 0.875rem;
             font-weight: 400;
             font-style: normal;
             line-height: normal;
+            color: var(--Light-01);
+        }
+        .Hero-SousTitre p{
             color: var(--Light-01);
         }
         .Hero-SousTitre_p2{
@@ -173,14 +177,15 @@ a{
             border: none;
             background: var(--Black-01);
             cursor: pointer;
-
-            /* Son Texte */
+        }
+        .CTA-P{
             font-family: 'Body';
             font-size: 0.875rem; 
             font-style: normal;
             font-weight: 500;
             color: var(--Light-01);
         }
+
         /* la Secondary */
         .CTA.Secondary{
             border-radius: 6px;
@@ -215,3 +220,48 @@ a{
             z-index: 1;
         }
 /* ...................................... */
+
+/* Section 2 */
+    .Section2{
+        overflow: clip;
+        background-color: var(--Light-01);
+    }
+    .Section2-Wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        max-width: 1120px;
+        margin: auto;
+        padding: 100px 0px;
+    }
+    .Section2-Grp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 58px;
+
+        width: 66%;
+    }
+    .Section2-Grp > h1,
+    .Section2-Grp > p{
+        color: var(--Black-01);
+        text-align: center;
+    }
+    .Section2-Grp h1{
+        font-family: "Title";
+        font-style: normal;
+        font-size: clamp(1.75rem, 1.25vw, 1.875rem);
+        font-weight: 800;
+        line-height: normal;
+    }
+    .Section2-Grp p{
+        font-family:"Body";
+        font-size: clamp(0.875rem, 0.97vw, 1rem);
+        font-weight: 400;
+        font-style: normal;
+        line-height: 142%;
+    }
+/* ....................................... */

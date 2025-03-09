@@ -1,4 +1,4 @@
-/* Break 1 */
+/* Break 1390 */
     @media screen and (max-width: 1390px) {
         .Navbar-Container {
             width: 88%;
@@ -7,8 +7,9 @@
             width: 88%;
         }
     }
+/* ................................. */
 
-/* Break 2 */
+/* Break 1280 */
     @media screen and (max-width: 1280px) {
         /* Navbar */
             .Navbar-Container {
@@ -37,7 +38,7 @@
     }
 /* ................................ */
 
-/* Break 3 */
+/* Break 1186 */
     @media screen and (max-width: 1186px) {
          /* HeroSection */
             .HeroGrp-Left{
@@ -54,7 +55,7 @@
     }
 /* ................................ */
 
-/* Break 4 */
+/* Break 998 */
     @media screen and (max-width: 998px) {
         /* HeroSection */
             .HeroSection-Wrapper{
@@ -72,7 +73,13 @@
                 width: 210px;
                 right: 193px;
             }
-    /* ....................... */
+        /* ....................... */
+
+        /* Section 2 */
+            .Section2-Grp{
+                width: 78%;
+            }
+        /* ....................... */
     }
 /* ................................ */
 
@@ -109,7 +116,6 @@
     @media screen and (max-width: 600px) {
         /* HeroSection */
             .HeroGrp-Left{
-                /* padding-bottom: 278px; */
                 margin-left: -26px;
                 scale: 0.8;
             }
@@ -123,10 +129,22 @@
                 right: 88px;
             }
         /* ....................... */
+
+        /* Section 2 */
+            .Section2-Grp{
+                width: 78%;
+                align-items: flex-start;
+                gap: 22px;
+            }
+            .Section2-Grp p{
+                text-align: left;
+                text-wrap: balance;
+            }
+        /* .................... */
     }
 /* ................................ */
 
-/* Break 7 */
+/* Break 480 */
     @media screen and (max-width: 480px) {
         /* HeroSection */
             .HeroSection-Wrapper{
@@ -147,10 +165,16 @@
                 right: 66px;
             }
         /* ....................... */
+
+        /* Section 2 */
+            .Section2-Grp{
+                width: 82%;
+            }
+         /* .................... */
     }
 /* ................................ */
 
-/* Break 8 */
+/* Break 375 */
     @media screen and (max-width: 375px) {
         /* HeroSection */
             .HeroGrp-Left{
