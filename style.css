@@ -158,6 +158,13 @@ a{
         .Hero-SousTitre_p2{
             font-weight: 700;
         }
+        .Hero-SousTitre_p3{
+            font-family: "Title";
+            font-weight: 600;
+            font-size: 1.35rem;
+            margin-top: 20px;
+            color: #38ffdf !important;
+        }
 
         /* HeroGrp-CTA */
         .HeroGrp-CTA{
