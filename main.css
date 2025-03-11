@@ -51,7 +51,24 @@
             .Hero-Tof2{
                 width: 258px;
             }
-        /* ....................... */
+        /* ............ */
+
+        /* Section 3 */
+            .Services-Box{
+                flex-direction: column;
+                align-items: center;
+                gap: 0px;
+            }
+            .Services-Box-img{
+               height: 476px;
+            }
+            .Services-TextBloc{
+                border-top: 1px dashed var(--Black-01);
+                border-left: 0px dashed var(--Black-01);
+                padding-top: 20px;
+                padding-left: 0;
+            }
+        /* ......... */
     }
 /* ................................ */
 
@@ -83,7 +100,7 @@
     }
 /* ................................ */
 
-/* Break 5 */
+/* Break 780 */
     @media screen and (max-width: 780px) {
         /* HeroSection */
             .HeroSection-Wrapper{
@@ -112,7 +129,7 @@
     }
 /* ................................ */
 
-/* Break 6 */
+/* Break 600 */
     @media screen and (max-width: 600px) {
         /* HeroSection */
             .HeroGrp-Left{
@@ -141,6 +158,26 @@
                 text-wrap: balance;
             }
         /* .................... */
+
+        /* Section 3 */
+            .Section3-Wrapper{
+                padding: 86px 2svw;
+                gap: 26px;
+            }
+            .Sec3TitleGrp{
+                width: 435px;
+            }
+            .Sec3-P {
+                font-size: clamp(0.800rem, 0.97vw, 1rem);
+            }
+            .Grp-BtnServices{
+                scale: 0.8;
+            }
+            .Services-TextBloc{
+                scale: 0.8;
+                margin-top: -70px;
+            }
+        /* ......... */
     }
 /* ................................ */
 
@@ -170,7 +207,18 @@
             .Section2-Grp{
                 width: 82%;
             }
-         /* .................... */
+        /* .......... */
+
+        /* Section 3 */
+            .Sec3-P {
+                font-size: clamp(0.840rem, 0.97vw, 1rem);
+                scale: 0.8;
+            }
+            .Services-Container{
+                margin-top: -30px;
+                gap: 2px;
+            }
+        /* ......... */
     }
 /* ................................ */
 
@@ -190,6 +238,39 @@
                 width: 146px;
                 right: 46px;
             }
-        /* ....................... */
+        /* ............ */
+
+        /* Section 2 */
+            .Section2-Wrapper{
+                padding: 54px 0px;
+            }
+        /* ......... */
+
+        /* Section 3 */
+            .Section3-Wrapper{
+                padding: 66px 2svw;
+            }
+            .Sec3TitleGrp {
+                width: 366px;
+            }
+            .Sec3-P {
+                font-size: clamp(0.840rem, 0.97vw, 1rem);
+            }
+            .Services-Grp{
+                justify-content: center;
+            }
+            .Services-Box-img {
+                height: 326px;
+            }
+            .Services-TextBloc{
+                width: 416px;
+                scale: 0.7;
+            }
+            .Services-TextBloc>a{
+                scale: 1.3;
+                margin-left: 45px;
+            }
+
+        /* ......... */
     }
 /* ................................ */
