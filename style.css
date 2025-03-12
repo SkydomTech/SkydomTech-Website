@@ -334,6 +334,17 @@ a{
             width: 100%;
         }
         /* Grp-BtnServices */
+            .BtnServices-Container{
+                display: flex;
+                justify-content: center;
+                background: linear-gradient(to bottom, #ffffff 70%, transparent 100%);
+                
+                width: 100%;
+                padding-top: 20px;
+                position: sticky;
+                top: 0;
+                z-index: 1;
+            }
             .Grp-BtnServices{
                 display: flex;
                 justify-content: center;
