@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <main>
@@ -109,32 +112,32 @@
                         <!-- Grp-BtnServices -->
                             <div class="BtnServices-Container">
                                 <div class="Grp-BtnServices">
-                                    <button class="CTA CTA-Active">
+                                    <button class="CTA" id="Btn-1" data-button-id="Btn-1" data-target="Div-1">
                                         <img class="CTA-Icon" src="/Icons/Graduation-icon.svg" alt="">
                                         <p class="CTA-P">Etablissement Éducatif</p>
                                     </button>
 
-                                    <button class="CTA">
+                                    <button class="CTA" id="Btn-2" data-button-id="Btn-2" data-target="Div-2">
                                         <img class="CTA-Icon" src="/Icons/Admin-Icon.svg" alt="">
                                         <p class="CTA-P">Administrations publique</p>
                                     </button>
 
-                                    <button class="CTA">
+                                    <button class="CTA" id="Btn-3" data-button-id="Btn-3" data-target="Div-3">
                                         <img class="CTA-Icon" src="/Icons/StartUp-Icon.svg" alt="">
                                         <p class="CTA-P">STARTUP ET INCUBATEUR</p>
                                     </button>
 
-                                    <button class="CTA">
+                                    <button class="CTA" id="Btn-4" data-button-id="Btn-4" data-target="Div-4">
                                         <img class="CTA-Icon" src="/Icons/PME-Icon.svg" alt="">
                                         <p class="CTA-P">PME-Grandes Entreprises</p>
                                     </button>
 
-                                    <button class="CTA">
+                                    <button class="CTA" id="Btn-5" data-button-id="Btn-5" data-target="Div-5">
                                         <img class="CTA-Icon" src="/Icons/Magic-Icon.svg" alt="">
                                         <p class="CTA-P">Identité de Marque et Stratégies</p>
                                     </button>
 
-                                    <button class="CTA">
+                                    <button class="CTA" id="Btn-6" data-button-id="Btn-6" data-target="Div-6">
                                         <img class="CTA-Icon" src="/Icons/Config-Icon.svg" alt="">
                                         <p class="CTA-P">ENTREPRISES DE LOGISTIQUE ET DE COMMERCE</p>
                                     </button>
@@ -143,12 +146,13 @@
                         <!-- ................ -->
                         
                         <!-- Services-Grp -->
-                            <div class="Services-Grp">
-                                <!-- Services-Box -->
-                                    <div class="Services-Box">
-                                        <img class="Services-Box-img" src="/Images/Tof-1.png" alt="">
-                                        <div class="Services-TextBloc">
-                                            <!-- service-Grp1 -->
+                            <div id="Div-1" class="Service-view">
+                                <div class="Services-Grp">
+                                    <!-- Services-Box -->
+                                        <div class="Services-Box">
+                                            <img class="Services-Box-img" src="/Images/Tof-1.png" alt="">
+                                            <div class="Services-TextBloc">
+                                                <!-- service-Grp1 -->
                                                 <div class="Service-Grp1">
                                                     <div class="Service-Grp1_01">
                                                         <!-- Service-Grp1_02 -->
@@ -158,24 +162,25 @@
                                                                 Etablissement Éducatif
                                                             </h2>
                                                         </div>
-                                    
+                                        
                                                         <p class="Service-Grp1_01-p">
                                                             Profitez de notre gamme de services innovants dans le secteur de l’Éducation.
                                                         </p>
                                                     </div>
-                                    
+                                        
                                                     <p class="Service-Grp1_p">
                                                         Optimisez vos écoles et universités dès maintenant!
                                                     </p>
                                                 </div>
-                                            <!-- ............ -->
-                                
-                                            <!-- service-Grp2 -->
+                                                <!-- ............ -->
+                                        
+                                                <!-- service-Grp2 -->
                                                 <div class="Service-Grp2">
                                                     <p class="Service-Grp2_P1">
                                                         Nos produits et services />
                                                     </p>
-                                                    <p class="Service-Grp2_P2">• Installation de caméras de surveillance, de dispositifs<br>&nbsp d’empreintes digitales et autres</p>
+                                                    <p class="Service-Grp2_P2">• Installation de caméras de surveillance, de dispositifs<br>&nbsp d’empreintes
+                                                        digitales et autres</p>
                                                     <p class="Service-Grp2_P2">• Formation ou développement professionnel</p>
                                                     <p class="Service-Grp2_P2">• Gestion de la bibliothèque</p>
                                                     <p class="Service-Grp2_P2">• Gestion des Apprenants</p>
@@ -183,16 +188,72 @@
                                                     <p class="Service-Grp2_P2">• Gestion du personnel</p>
                                                     <p class="Service-Grp2_P2">• Etc.</p>
                                                 </div>
-                                            <!-- ............ -->
-                                            <!-- CTA -->
-                                            <a class=" CTA CTA-Active" href="https://wa.me/+243855571586/" target="_blank">
-                                                <img class="CTA-Icon" src="/Icons/CTA-Icon_WhatsApp.svg" alt="">
-                                                <p class="CTA-P">Passez un appel découverte</p>
-                                            </a>
-                                            <!-- ... -->
+                                                <!-- ............ -->
+                                                <!-- CTA -->
+                                                <a class=" CTA CTA-Active" href="https://wa.me/+243855571586/" target="_blank">
+                                                    <img class="CTA-Icon" src="/Icons/CTA-Icon_WhatsApp.svg" alt="">
+                                                    <p class="CTA-P">Passez un appel découverte</p>
+                                                </a>
+                                                <!-- ... -->
+                                            </div>
                                         </div>
-                                    </div>
-                                <!-- ............ -->
+                                    <!-- ............ -->
+                                </div>
+                            </div>
+
+                            <div id="Div-2" class="Service-view">
+                                <div class="Services-Grp">
+                                    <!-- Services-Box -->
+                                        <div class="Services-Box">
+                                            <img class="Services-Box-img" src="/Images/Tof-1.png" alt="">
+                                            <div class="Services-TextBloc">
+                                                <!-- service-Grp1 -->
+                                                <div class="Service-Grp1">
+                                                    <div class="Service-Grp1_01">
+                                                        <!-- Service-Grp1_02 -->
+                                                        <div class="Service-Grp1_02">
+                                                            <img class="Service-Grp1_02-Icon" src="/Icons/Graduation-icon_black.svg" alt="">
+                                                            <h2 class="Service-Grp1_02-p">
+                                                                Hello !
+                                                            </h2>
+                                                        </div>
+                                        
+                                                        <p class="Service-Grp1_01-p">
+                                                            Profitez de notre gamme de services innovants dans le secteur de l’Éducation.
+                                                        </p>
+                                                    </div>
+                                        
+                                                    <p class="Service-Grp1_p">
+                                                        Optimisez vos écoles et universités dès maintenant!
+                                                    </p>
+                                                </div>
+                                                <!-- ............ -->
+                                        
+                                                <!-- service-Grp2 -->
+                                                <div class="Service-Grp2">
+                                                    <p class="Service-Grp2_P1">
+                                                        Nos produits et services />
+                                                    </p>
+                                                    <p class="Service-Grp2_P2">• Installation de caméras de surveillance, de dispositifs<br>&nbsp d’empreintes
+                                                        digitales et autres</p>
+                                                    <p class="Service-Grp2_P2">• Formation ou développement professionnel</p>
+                                                    <p class="Service-Grp2_P2">• Gestion de la bibliothèque</p>
+                                                    <p class="Service-Grp2_P2">• Gestion des Apprenants</p>
+                                                    <p class="Service-Grp2_P2">• Création des sites web</p>
+                                                    <p class="Service-Grp2_P2">• Gestion du personnel</p>
+                                                    <p class="Service-Grp2_P2">• Etc.</p>
+                                                </div>
+                                                <!-- ............ -->
+                                                <!-- CTA -->
+                                                <a class=" CTA CTA-Active" href="https://wa.me/+243855571586/" target="_blank">
+                                                    <img class="CTA-Icon" src="/Icons/CTA-Icon_WhatsApp.svg" alt="">
+                                                    <p class="CTA-P">Passez un appel découverte</p>
+                                                </a>
+                                                <!-- ... -->
+                                            </div>
+                                        </div>
+                                    <!-- ............ -->
+                                </div>
                             </div>
                         <!-- ............ -->
                     </div>
@@ -204,7 +265,6 @@
             </div>
          </section>
         <!-- ......... -->
-         <!-- <div style="height: 800px; background-color: aqua;"></div> -->
     </main>
     
 </body>

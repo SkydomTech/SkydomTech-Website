@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Buttons and Divs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        .CTA-Active {
+            background-color: yellow;
+        }
+        .MonDiv {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="Btn-1" data-button-id="Btn-1" data-target="Div-1">Button 1</button>
+    <button id="Btn-2" data-button-id="Btn-2" data-target="Div-2">Button 2</button>
+    <button id="Btn-3" data-button-id="Btn-3" data-target="Div-3">Button 3</button>
+    <button id="Btn-4" data-button-id="Btn-4" data-target="Div-4">Button 4</button>
+    <button id="Btn-5" data-button-id="Btn-5" data-target="Div-5">Button 5</button>
+    <button id="Btn-6" data-button-id="Btn-6" data-target="Div-6">Button 6</button>
+
+    <div id="Div-1" class="MonDiv">Content 1</div>
+    <div id="Div-2" class="MonDiv">Content 2</div>
+    <div id="Div-3" class="MonDiv">Content 3</div>
+    <div id="Div-4" class="MonDiv">Content 4</div>
+    <div id="Div-5" class="MonDiv">Content 5</div>
+    <div id="Div-6" class="MonDiv">Content 6</div>
+
+    <!-- <script>
+        $(document).ready(function () {
+            $('button').on('click', function () {
+                // Get the target button and div IDs from data attributes
+                const targetButtonId = $(this).data('button-id');
+                const targetDivId = $(this).data('target');
+
+                // Remove "CTA-Active" class from all buttons
+                $('button').removeClass('CTA-Active');
+
+                // Add "CTA-Active" class to the clicked button
+                $(this).addClass('CTA-Active');
+
+                // Hide all divs
+                $('.content-div').hide();
+
+                // Show the specific div associated with the clicked button
+                const targetDiv = $('#' + targetDivId);
+                if (targetDiv.length) {
+                    targetDiv.css('display', 'flex');
+                }
+            });
+        });
+    </script> -->
+</body>
+</html>

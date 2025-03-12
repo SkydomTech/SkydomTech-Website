@@ -381,6 +381,9 @@ a{
                 
                 width: 100%;
             }
+            .Service-view{
+                display: none;
+            }
             .Services-Box{
                 display: flex;
                 justify-content: center;
