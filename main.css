@@ -258,6 +258,9 @@
                 scale: 0.7;
                 padding-bottom: 216px;
             }
+            .HeroGrp-Right {
+                scale: 1;
+            }
 
             .Hero-Tof1{
                 width: 243px;
