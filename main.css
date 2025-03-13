@@ -285,6 +285,9 @@
         /* ......... */
 
         /* Section 3 */
+            .Section3-Wrapper{
+                padding-bottom: 30px;
+            }
             .Sec3TitleGrp {
                 width: 366px;
             }
