@@ -195,17 +195,26 @@ a{
         }
 
         /* la Secondary */
-        .CTA.Secondary{
+        .CTA-Secondary{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            width: max-content;
+            padding: 14px 20px;
+            
             border-radius: 6px;
             border: 1px solid var(--Light-01);
             background: rgba(10, 118, 202, 0.58);
             backdrop-filter: blur(5px);
+            cursor: pointer;
         }
         /* Les Hover */
         .CTA:hover{
             background: #11558b;
         }
-        .CTA.Secondary:hover{
+        .CTA-Secondary:hover{
             background: #2586d5;
         }
         /* CTA Active */
