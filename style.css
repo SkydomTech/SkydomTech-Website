@@ -294,13 +294,18 @@ a{
         flex-direction: column;
         align-items: center;
         gap: 98px;
-
+        
         width: 100%;
         max-width: 1440px;
-        padding: 168px 2svw;
+        padding: 238px 2svw;
+        padding-top: 0;
         color: var(--Black-01);
+        position: relative;
     }
     /* Sec3TitleGrp */
+        .Keyboard-Vector{
+            width: 122px;
+        }
         .Sec3TitleGrp{
             display: flex;
             flex-direction: column;
@@ -337,10 +342,11 @@ a{
             .BtnServices-Container{
                 display: flex;
                 justify-content: center;
-                background: linear-gradient(to bottom, #ffffff 70%, transparent 100%);
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 1.83%, #F7FBFF 79.83%);
                 
                 width: 100%;
                 padding-top: 20px;
+                padding-bottom: 100px;
                 position: sticky;
                 top: 0;
                 z-index: 1;
