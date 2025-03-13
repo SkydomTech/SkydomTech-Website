@@ -161,7 +161,6 @@
 
         /* Section 3 */
             .Section3-Wrapper{
-                padding: 86px 2svw;
                 gap: 26px;
             }
             .Sec3TitleGrp{
@@ -248,9 +247,6 @@
         /* ......... */
 
         /* Section 3 */
-            .Section3-Wrapper{
-                padding: 66px 2svw;
-            }
             .Sec3TitleGrp {
                 width: 366px;
             }
