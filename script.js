@@ -36,3 +36,31 @@ $(document).ready(function() {
         }
     });
 });
+
+// Menu mobile
+$(document).ready(function() {
+    $(".Menu-Burger").click(function() {
+        $(".Navbar-Mobile, .Menu-Mobile").css("display", "flex");
+        $(".Navbar-Mobile").animate({
+            height: "300px",
+            paddingTop: "122px"
+        }, 1000);
+        $(".Menu-Burger").css({
+            transition: "transform 1s",
+            transform: "rotate(90deg)"
+        });
+    });
+
+    $(".Menu-Link").click(function() {
+        $(".Navbar-Mobile").animate({
+            height: "0px",
+            paddingTop: "0px"
+        }, 1000, function() {
+            $(".Navbar-Mobile, .Menu-Mobile").css("display", "none");
+        });
+        $(".Menu-Burger").css({
+            transition: "transform 1s",
+            transform: "rotate(0deg)"
+        });
+    });
+});
