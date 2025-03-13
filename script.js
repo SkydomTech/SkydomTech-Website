@@ -1,6 +1,6 @@
 // Smooth scroll
 $(document).ready(function() {
-    $('.Menu-Link').on('click', function(event) {
+    $('.Menu-Link, .CTA').on('click', function(event) {
         event.preventDefault();
         const targetId = $(this).attr('href').substring(1);
         const targetElement = $('#' + targetId);
