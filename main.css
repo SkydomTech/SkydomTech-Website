@@ -291,8 +291,14 @@
             .Sec3-P {
                 font-size: clamp(0.840rem, 0.97vw, 1rem);
             }
+            .BtnServices-Container{
+                padding-top: 0px;
+            }
             .Services-Grp{
                 justify-content: center;
+            }
+            .Service-view{
+                margin-top: -98px;
             }
             .Services-Box-img {
                 height: 326px;
