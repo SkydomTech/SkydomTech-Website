@@ -246,6 +246,9 @@
                 margin-top: -30px;
                 gap: 2px;
             }
+            .Grp-BtnServices{
+                width: auto;
+            }
         /* ......... */
     }
 /* ................................ */
@@ -261,7 +264,7 @@
             .HeroGrp-CTA{
                 scale: 1.09;
             }
-            
+
             .HeroGrp-Right {
                 scale: 1;
             }
