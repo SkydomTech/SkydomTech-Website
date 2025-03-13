@@ -1,21 +1,16 @@
 // Smooth scroll
-document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('.Menu-Link');
+$(document).ready(function() {
+    $('.Menu-Link').on('click', function(event) {
+        event.preventDefault();
+        const targetId = $(this).attr('href').substring(1);
+        const targetElement = $('#' + targetId);
 
-    for (const link of links) {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    }
+        if (targetElement.length) {
+            $('html, body').animate({
+                scrollTop: targetElement.offset().top
+            }, 800); // 800ms for smooth scroll
+        }
+    });
 });
 
 // Navigation services
