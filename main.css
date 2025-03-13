@@ -26,7 +26,7 @@
         /* HeroSection */
             .HeroSection-Wrapper{
                 height: 100dvh;
-                max-height: 600px;
+                max-height: 732px;
             }
             .Hero-Tof1{
                 width: 483px;
@@ -76,10 +76,11 @@
     @media screen and (max-width: 998px) {
         /* HeroSection */
             .HeroSection-Wrapper{
-                max-height: 486px;   
+                max-height: 576px;   
             }
             .HeroGrp-Left{
-                padding-bottom: 90px;
+                padding-bottom: 0px;
+                padding-top: 84px;
                 margin-left: -35px;
             }
             
@@ -188,7 +189,6 @@
                 max-height: 84dvh;   
             }
             .HeroGrp-Left{
-                padding-bottom: 250px;
                 margin-left: -21px;
                 scale: 0.7;
             }
@@ -226,7 +226,6 @@
     @media screen and (max-width: 375px) {
         /* HeroSection */
             .HeroGrp-Left{
-                padding-bottom: 200px;
                 margin-left: -21px;
                 scale: 0.7;
             }
