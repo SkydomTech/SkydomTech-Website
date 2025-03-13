@@ -214,6 +214,11 @@
             .HeroGrp-Left{
                 margin-left: -21px;
                 scale: 0.7;
+                padding-bottom: 182px;
+            }
+
+            .HeroGrp-Right{
+                scale: 0.87;
             }
 
             .Hero-Tof1{
