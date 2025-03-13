@@ -69,6 +69,23 @@
                 padding-left: 0;
             }
         /* ......... */
+
+        /* Footer */
+            .Footer-Wrapper{
+                flex-direction: column;
+                align-content: center;
+                align-items: center;   
+            }
+            .Contacts{
+                align-items: center;
+            }
+            .Contacts-Box{
+                align-items: center;
+            }
+            .Contacts-Grp{
+                align-items: center;
+            }
+        /* ...... */
     }
 /* ................................ */
 
@@ -179,6 +196,12 @@
                 width: 410px;
             }
         /* ......... */
+
+        /* Footer */
+            .Contacts-RS{
+                flex-direction: column;
+            }
+        /* ...... */
     }
 /* ................................ */
 

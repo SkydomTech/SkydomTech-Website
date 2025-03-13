@@ -489,3 +489,91 @@ a{
         /* ............ */
     /* ................. */
 /* ......... */
+
+/* Footer */
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0px;
+        background: var(--Primary-01);
+    }
+    .Footer-Wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-content: flex-end;
+        align-self: stretch;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+        width: 100%;
+        max-width: 78%;
+        margin: auto;
+
+        color: var(--Light-01);
+    }
+    /* Contcats */
+        .Contacts{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        /* Contacts-Box */
+            .Contacts-Box{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 22px;
+            }
+            .Contacts-Title{
+                font-family: "Body";
+                font-size: clamp(1.325rem, 1.94vw, 1.75rem);
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: -1.64px;
+            }
+
+            /* Contacts-Grp */
+                .Contacts-Grp{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 14px;
+                }
+                /* Contact-Grp1 */
+                    .Contact-Grp_Bloc{
+                        display: flex;
+                        align-items: center;
+                        gap: 6px;
+                    }
+                    .Contact-P{
+                        font-family: "Body";
+                        font-size: clamp(0.785rem, 0.97vw, 1rem);
+                        font-weight: 600;
+                        line-height: normal;
+                        letter-spacing: -0.500px;
+                    }
+                /* ............ */
+            /* ........... */
+        /* ........... */
+    /* ........ */
+
+    /* Contacts RS */
+        .Contacts-RS{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .RS-P{
+            font-family: "Body";
+            font-size: clamp(0.62rem, 0.83vw, 0.875rem);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.18px;
+        }
+    /* ........... */
+/* ................................. */
